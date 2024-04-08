@@ -4,7 +4,7 @@ from factorial import fact
 
 def main():
     st.title("Factorial Calculator")
-    number = st.number_input("Enter a number", min_value=0, max_value=9000)
+    number = st.number_input("Enter a number", min_value=0, max_value=900)
     result = None
     if st.button("Calculate"):
         result = fact(number)
